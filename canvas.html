@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Map</title>
+    <style>
+        canvas {
+            display: block;
+            margin: 0 auto;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">2D Office Map</h1>
+    <canvas id="mapCanvas" width="800" height="600"></canvas>
+
+    <script>
+        // Setup canvas
+        const canvas = document.getElementById('mapCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Define rooms as rectangles
+        const rooms = [
+            { name: "Lobby", x: 50, y: 50, width: 200, height: 150, color: "#cce7ff" },
+            { name: "Conference Room", x: 300, y: 50, width: 400, height: 150, color: "#ffd6d6" },
+            { name: "Gaming Room", x: 50, y: 250, width: 200, height: 150, color: "#d1ffd6" },
+            { name: "Break Room", x: 300, y: 250, width: 400, height: 150, color: "#fff5d6" }
+        ];
+
+        // Draw the map
+        function drawMap() {
+            rooms.forEach(room => {
+                ctx.fillStyle = room.color;
+                ctx.fillRect(room.x, room.y, room.width, room.height);
+                ctx.strokeRect(room.x, room.y, room.width, room.height);
+
+                // Room labels
+                ctx.fillStyle = "black";
+                ctx.font = "18px Arial";
+                ctx.fillText(room.name, room.x + 10, room.y + 30);
+            });
+        }
+
+        // Avatar properties
+        const avatar = {
+            x: 100,
+            y: 100,
+            size: 20,
+            color: "red"
+        };
+
+        // Draw the avatar
+        function drawAvatar() {
+            ctx.fillStyle = avatar.color;
+            ctx.beginPath();
+            ctx.arc(avatar.x, avatar.y, avatar.size, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
+        // Handle keyboard input for avatar movement
+        document.addEventListener('keydown', (e) => {
+            const speed = 10;
+
+            switch (e.key) {
+                case "ArrowUp":
+                    if (avatar.y - avatar.size > 0) avatar.y -= speed;
+                    break;
+                case "ArrowDown":
+                    if (avatar.y + avatar.size < canvas.height) avatar.y += speed;
+                    break;
+                case "ArrowLeft":
+                    if (avatar.x - avatar.size > 0) avatar.x -= speed;
+                    break;
+                case "ArrowRight":
+                    if (avatar.x + avatar.size < canvas.width) avatar.x += speed;
+                    break;
+            }
+            redraw();
+        });
+
+        // Redraw everything
+        function redraw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear canvas
+            drawMap(); // Redraw rooms
+            drawAvatar(); // Redraw avatar
+        }
+
+        // Initial draw
+        redraw();
+    </script>
+</body>
+</html>
