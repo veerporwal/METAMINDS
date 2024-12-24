@@ -1,0 +1,178 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
+    "expandedProjectPaths": [
+        "snippets-main",
+        "snippets-main/love2d/5_camera",
+        "Simple-Tiled-Implementation-master/tests/tmx",
+        "Simple-Tiled-Implementation-master/tests/tsx",
+        "snippets-main/love2d/5_camera/maps",
+        "2d-metaverse-main/metaverse/packages/ui/src",
+        "snippets-main/snippets-main/love2d",
+        "snippets-main/love2d/5_camera/maps/testMap.tmx",
+        "snippets-main/love2d",
+        "2d-metaverse-main/metaverse/packages/ui",
+        "snippets-main/snippets-main",
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
+        "2d-metaverse-main/metaverse/packages",
+        "2d-metaverse-main",
+        ".",
+        "snippets-main/snippets-main/love2d/5_camera",
+        "snippets-main/snippets-main/love2d/5_camera/maps",
+        "2d-metaverse-main/metaverse",
+        "Simple-Tiled-Implementation-master/tests"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "#test tiles": {
+            "scaleInDock": 1
+        },
+        "C:/Users/vaidy/AppData/Local/Microsoft/Windows/INetCache/IE/50XH83PD/testMap[1].tmx": {
+            "scale": 0.42156249999999995,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1538.3246849518166,
+                "y": 677.2424017790958
+            }
+        },
+        "C:/Users/vaidy/AppData/Local/Microsoft/Windows/INetCache/IE/50XH83PD/testMap[1].tmx#test-tiles": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx": {
+            "scale": 256,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.830078125,
+                "y": 512.130859375
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx#collection": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx#empty": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx": {
+            "scale": 256,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 404.330078125,
+                "y": 327.537109375
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx#hex1": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx": {
+            "scale": 0.4715579710144927,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1001.9976949673454,
+                "y": 622.4049174029966
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx#iso": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx": {
+            "scale": 0.8720703125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 755.0996640537514,
+                "y": 294.1276595744681
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx": {
+            "scale": 0.526953125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 657.5537435137137,
+                "y": 317.86508524833215
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx": {
+            "scale": 1.1627604166666665,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 566.3247480403136,
+                "y": 220.59574468085108
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx": {
+            "scale": 256,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 506.822265625,
+                "y": 505.537109375
+            }
+        },
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx#iso": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tsx/grid.tsx": {
+            "scaleInDock": 1
+        },
+        "Simple-Tiled-Implementation-master/tests/tsx/may.tsx": {
+            "scaleInDock": 1
+        },
+        "snippets-main/love2d/5_camera/maps/testMap.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1081,
+                "y": 351
+            }
+        },
+        "snippets-main/love2d/5_camera/maps/testMap.tmx#test-tiles": {
+            "scaleInDock": 1
+        },
+        "snippets-main/snippets-main/love2d/5_camera/maps/testMap.tmx": {
+            "scale": 0.42156249999999995,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 959.5255744996296,
+                "y": 959.5255744996296
+            }
+        },
+        "snippets-main/snippets-main/love2d/5_camera/maps/testMap.tmx#test-tiles": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/vaidy/OneDrive/Desktop/snippets-main/love2d/5_camera/maps",
+    "last.imagePath": "C:/Users/vaidy/OneDrive/Desktop/snippets-main/love2d/5_camera/maps",
+    "map.height": 30,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "openFiles": [
+        "C:/Users/vaidy/AppData/Local/Microsoft/Windows/INetCache/IE/50XH83PD/testMap[1].tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx"
+    ],
+    "project": "2d map.tiled-project",
+    "recentFiles": [
+        "C:/Users/vaidy/AppData/Local/Microsoft/Windows/INetCache/IE/50XH83PD/testMap[1].tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho-inf.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/ortho.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/objects.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/iso.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/hex.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/collection.tmx",
+        "Simple-Tiled-Implementation-master/tests/tmx/stag.tmx",
+        "snippets-main/snippets-main/love2d/5_camera/maps/testMap.tmx",
+        "snippets-main/love2d/5_camera/maps/testMap.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
+}
