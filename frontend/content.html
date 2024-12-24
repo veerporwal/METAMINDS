@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Corporate</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            z-index: 1000;
+            transition: 0.3s;
+        }
+
+        header.scrolled {
+            background-color: #002244;
+            font-size: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #006699;
+            color: white;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+            background-color: #e8f4f8;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            min-width: 200px;
+            max-width: 300px;
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+
+        .mid-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #fefefe;
+        }
+
+        .mid-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+
+        .footer .credits {
+            text-align: left;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">Meta Corporate</header>
+
+    <div class="hero">
+        <h1>Features of Your Virtual Office</h1>
+        <div class="features">
+            <div class="feature-card">
+                <h3>Virtual Work Culture</h3>
+                <p>Interactive chat lobby.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Virtual Entertainment Zone</h3>
+                <p>Play games with colleagues, watch OTT together when bored.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Work Zone</h3>
+                <p>Virtual meeting and presentation room.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Virtual Reality Zone</h3>
+                <p>Experience more with VR.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mid-section">
+        <h2>Why Choose Us</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>35.13 Million Remote Employees</h3>
+                <p>Remote work is growing rapidly.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Featured Remote Jobs</h3>
+                <p>Saves company resources and employers' time.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Virtual HQ Experience</h3>
+                <p>Employees get a gamified virtual HQ on their screen to avoid boredom.</p>
+            </div>
+        </div>
+
+    <div class="footer">
+        <p>Say goodbye to boring work-from-home culture, say hello to Meta Corporate.</p>
+        <div class="credits">
+            Created by MetaMinds - Shorya Vaidya, Veer Porwal
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            const header = document.getElementById("header");
+            if (window.scrollY > 50) {
+                header.textContent = "Bringing back the in-person interaction you missed";
+                header.classList.add("scrolled");
+            } else {
+                header.textContent = "Meta Corporate";
+                header.classList.remove("scrolled");
+            }
+        });
+    </script>
+</body>
+</html>
